@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url('img/Baralho.jpg');
+  background-size: cover;
+  background-position: center;
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .background {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px; 
+    margin: auto; 
+    text-align: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  }
+  #chute{
+    width: 80%; /* Largura total do contêiner */
+    height: 30px; /* Altura da caixa de texto */
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none; /* Retira a borda original */
+  }
+  button{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 60px;
+    background-color: #e4400e;
+    border:none;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+   
+
+
+
